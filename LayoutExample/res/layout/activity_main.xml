@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.techage.layoutexample.MainActivity" >
+
+    <EditText
+        android:id="@+id/edFirstName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/string_first_name"
+        android:textSize="20pt" />
+
+    <EditText
+        android:id="@+id/edLastName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/string_last_name"
+        android:textSize="20pt" />
+
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/string_user_name"
+        android:textSize="20pt" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/string_password"
+        android:inputType="textPassword"
+        android:textSize="20pt" />
+
+    <EditText
+        android:id="@+id/edConfirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/string_confrim_password"
+        android:inputType="textPassword"
+        android:textSize="20pt" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_signup" />
+
+</LinearLayout>

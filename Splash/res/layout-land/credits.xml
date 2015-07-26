@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/nongamebackground"
+    >
+
+<Space 
+    android:layout_height="50dp"
+    android:layout_width="fill_parent"
+    />
+
+<LinearLayout 
+    android:weightSum="100"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    >
+          
+    <ImageView
+        android:layout_weight="50"
+        android:id="@+id/ivCoin1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:contentDescription="@string/coin"
+        android:src="@drawable/coin" />
+    
+    <TextView 
+        android:paddingTop="5dp"
+        android:id="@+id/credits"
+        android:typeface="serif"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="@string/credits"/>
+    
+    <ImageView
+        android:layout_weight="50"
+        android:id="@+id/ivCoin2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:contentDescription="@string/coin"
+        android:src="@drawable/coin" />
+
+</LinearLayout>
+
+<Space 
+    android:layout_height="5dp"
+    android:layout_width="fill_parent"
+    />
+
+<TextView 
+    android:id="@+id/creditsmclogo"
+    android:typeface="serif"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:textSize="15dp"
+    android:gravity="center"
+    android:text="@string/creditsmclogo"/>
+
+<Space 
+    android:layout_height="8dp"
+    android:layout_width="fill_parent"
+    />
+
+<TextView 
+    android:id="@+id/creditscreator"
+    android:typeface="serif"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:textSize="15dp"
+    android:gravity="center"
+    android:text="@string/creditcreator"/>
+
+<Space 
+    android:layout_height="8dp"
+    android:layout_width="fill_parent"
+    />
+
+<TextView 
+    android:id="@+id/creditsnotes"
+    android:typeface="serif"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:textSize="15dp"
+    android:gravity="center"
+    android:text="@string/creditnotes"/>
+
+<Space 
+    android:layout_height="8dp"
+    android:layout_width="fill_parent"
+    />
+
+<ImageView
+    android:id="@+id/ivMClogo"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:contentDescription="@string/mcldescription"
+    android:src="@drawable/mastered_chaos_logo" />
+
+<TextView
+    android:id="@+id/tvMCsite"
+    android:typeface="serif"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="5dp"
+    android:text="@string/mcsite"
+    android:textSize="10dp"/>
+
+</LinearLayout>

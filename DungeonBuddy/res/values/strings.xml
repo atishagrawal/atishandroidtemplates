@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="app_name">Buddy</string>
+    <string name="title">Dungeon Buddy</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="playButton">Play</string>
+    <string name="quitButton">Quit</string>
+    
+    <string name="buddyName">Kenny</string>
+    <string name="time">12:00</string>
+    <string name="desc">image</string>
+    
+    <string name="mightRating">Might: 1</string>
+    <string name="magicRating">Magic: 1</string>
+    <string name="marksmanRating">Marksman: 1</string>
+    <string-array name="attributeArray">
+        <item >Might</item>
+        <item >Magic</item>
+        <item >Marksman</item>
+    </string-array>
+    <string name="title_buddy_screen">Your Buddy</string>
+    <string name="attributeString">Select an Attribute</string>
+    <string name="magicString">Magic</string>
+    <string name="mightString">Might</string>
+    <string name="markString">Marksman</string>
+    <string name="addString">Add</string>
+    <string name="cancelString">Cancel</string>
+    <string name="title_store_screen">Store</string>
+    <string name="title_stats_screen">Your Stats</string>
+    
+    <string-array name="Saveslots">
+        <item>New Game</item>
+        <item>Slot 1</item>
+        <item>Slot 2</item>
+        <item>Slot 3</item>
+    </string-array>
+    
+    <string-array name="SaveslotsInGame">
+        <item>Slot 1</item>
+        <item>Slot 2</item>
+        <item>Slot 3</item>
+    </string-array>
+    <string name="birthday">Birthday:</string>
+</resources>

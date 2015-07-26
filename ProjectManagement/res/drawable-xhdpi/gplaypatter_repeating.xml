@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Project:		Deals
+  ~
+  ~ Package:		Deals-Deals
+  ~
+  ~ Author:		aaronburke
+  ~
+  ~ Date:		 	1 21, 2014
+  -->
+
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/gplaypattern"
+    android:tileMode="repeat" />

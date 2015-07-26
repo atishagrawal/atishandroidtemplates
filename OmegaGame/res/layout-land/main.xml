@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/nongamebackground">
+ 
+<ImageView
+    android:id="@+id/ivSZOlogo"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:contentDescription="@string/szoldescription"
+    android:src="@drawable/szologo" />
+
+    
+   <Space
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+      
+<LinearLayout 
+    android:weightSum="100"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    >
+          
+    <ImageView
+        android:layout_weight="50"
+        android:id="@+id/ivCoin1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:contentDescription="@string/coin"
+        android:src="@drawable/coin" />
+    
+    <Button
+        android:id="@+id/bStart"
+        android:typeface="serif"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/start"
+        android:textSize="20dp" />
+    
+     <ImageView
+        android:layout_weight="50"
+        android:id="@+id/ivCoin2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:contentDescription="@string/coin"
+        android:src="@drawable/coin" />
+
+</LinearLayout>
+
+   <Space
+        android:layout_width="fill_parent"
+        android:layout_height="15dp" />
+   
+<LinearLayout 
+    android:weightSum="100"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    >
+          
+    <ImageView
+        android:layout_weight="50"
+        android:id="@+id/ivCoin3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:contentDescription="@string/coin"
+        android:src="@drawable/coin" />
+    
+    <Button
+        android:id="@+id/bScores"
+        android:typeface="serif"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/scores"
+        android:textSize="20dp" />
+    
+     <ImageView
+        android:layout_weight="50"
+        android:id="@+id/ivCoin4"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:contentDescription="@string/coin"
+        android:src="@drawable/coin" />
+
+</LinearLayout>
+   
+   <Space
+        android:layout_width="fill_parent"
+        android:layout_height="15dp" />
+
+<LinearLayout 
+    android:weightSum="100"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    >
+          
+    <ImageView
+        android:layout_weight="50"
+        android:id="@+id/ivCoin5"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:contentDescription="@string/coin"
+        android:src="@drawable/coin" />
+    
+    <Button
+        android:id="@+id/bCredits"
+        android:typeface="serif"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/credits"
+        android:textSize="20dp" />
+    
+     <ImageView
+        android:layout_weight="50"
+        android:id="@+id/ivCoin6"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:contentDescription="@string/coin"
+        android:src="@drawable/coin" />
+
+</LinearLayout>
+
+</LinearLayout>

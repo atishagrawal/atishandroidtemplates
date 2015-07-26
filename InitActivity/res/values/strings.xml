@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="boardsize">Board size</string>
+    <string-array name="boardsize_array">
+        <item>3x3</item>
+        <item>4x4</item>
+        <item>5x5</item>
+        <item>6x6</item>
+        <item>7x7</item>
+    </string-array>
+    <string name="inarow">Required pieces in a row</string>
+    <string name="join_game">Join game</string>
+    <string name="host_game">Host game</string>
+    <string name="cancel">Cancel</string>
+    <string name="host_game_dialog">You are now hosting a game.\nYour IP address is %s\nOther players must use
+        this
+        address to play with you
+    </string>
+    <string name="join_game_dialog">Please enter the IP address of the player hosting the game.</string>
+    <string name="connect">Koble til</string>
+    <string name="ok">OK</string>
+    <string name="waiting_for_player">Waiting for player to connect to %s</string>
+    <string name="connected">Connected</string>
+    <string name="connection_failed">Connection failed. Please reconnect.</string>
+    <string name="server_socket_failed">Could not start server.</string>
+    <string name="client_socket_failed">Client connection failed.</string>
+    <string name="could_not_connect">Could not connect to server.</string>
+    <string name="required_length_to_win">Required length to win is %s</string>
+</resources>

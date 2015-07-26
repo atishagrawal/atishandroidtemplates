@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/svn/!svn/ver/3/CS353App
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/4/CS353App/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/4/CS353App/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/4/CS353App/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/4/CS353App/AndroidManifest.xml
+END

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TechSuiteMobile</string>
+    <string name="action_settings">Settings</string>
+    <string name="User_name">Username</string>
+    <string name="user_password">Password</string>
+    <string name="test_suite">TestSuite</string>
+    <string name="login_button">Login</string>
+    <string name="submit_button">Submit</string>
+    <string name="tech_suite_text_view">TECH SUITE</string>
+    <string name="no_account_text_view">Don\'t have an Account?</string>
+    <string name="register_button">Register</string>
+    <string name="registration_text_view">Registration</string>
+
+
+</resources>

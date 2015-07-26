@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ec327.chatterbox.chatterbox" >
+
+    <!-- An activity is a name for 'screen' in the Android language. This is where all the Activities are declared like they are declared
+     in the function. This whole page defines how the Activities are related
+     to each other (hierarchy) and basic info such as what text will be shown as the title of each screen.-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!-- Declares the Login page -->
+        <activity
+            android:name="com.ec327.chatterbox.chatterbox.Login"
+            android:label="@string/app_name" >
+            <!-- This small five lines of code is how the Android OS knows which activity (screen) to display first when the app opens.-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Declares the Signup Activity -->
+        <activity
+            android:name="com.ec327.chatterbox.chatterbox.SignUp"
+            android:label="@string/app_name"
+            android:parentActivityName="com.ec327.chatterbox.chatterbox.Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ec327.chatterbox.chatterbox.Login" />
+        </activity>
+        <!-- Declares the Email Confirmation activity. -->
+        <activity
+            android:name="com.ec327.chatterbox.chatterbox.EmailConfirm"
+            android:label="@string/app_name"
+            android:parentActivityName="com.ec327.chatterbox.chatterbox.SignUp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ec327.chatterbox.chatterbox.SignUp" />
+        </activity>
+        <!-- Declares the Mainscreen activity. -->
+        <activity
+            android:name="com.ec327.chatterbox.chatterbox.Mainscreen"
+            android:label="@string/app_name"
+            android:parentActivityName="com.ec327.chatterbox.chatterbox.MyShows" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ec327.chatterbox.chatterbox.MyShows" />
+        </activity>
+        <!-- Declares the MyActivity activity -->
+        <activity
+            android:name="com.ec327.chatterbox.chatterbox.MyActivity"
+            android:label="@string/title_myactivity" >
+        </activity>
+
+        <activity
+            android:name="com.ec327.chatterbox.chatterbox.MyShows"
+            android:label="@string/title_myshows" >
+        </activity>
+
+        <!-- Declares the thread activity -->
+        <activity
+            android:name="com.ec327.chatterbox.chatterbox.Thread"
+            android:label="@string/app_name"
+            android:parentActivityName="com.ec327.chatterbox.chatterbox.Mainscreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ec327.chatterbox.chatterbox.Mainscreen" />
+        </activity>
+        <!-- Declares the AddShows activity -->
+        <activity
+            android:name="com.ec327.chatterbox.chatterbox.AddShows"
+            android:label="@string/title_addshows" >
+        </activity>
+
+    </application>
+
+</manifest>

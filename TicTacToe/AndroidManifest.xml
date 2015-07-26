@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="no.hist.aitel.android.tictactoe"
+          android:versionCode="1"
+          android:versionName="0.1"
+          android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:label="Tic-tac-toe"
+            android:debuggable="true">
+        <!-- Our activities -->
+        <activity android:name=".InitActivity"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".GameActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".DifficultyActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".OptionsActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".MultiplayerModeActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".NetworkActivity"
+                  android:screenOrientation="portrait"/>
+    </application>
+    <uses-sdk android:minSdkVersion="8"/>
+</manifest>

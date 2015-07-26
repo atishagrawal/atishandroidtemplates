@@ -1,0 +1,18 @@
+# view AndroidManifest.xml #generated:63
+-keep class org.brickred.customui.AlbumActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class org.brickred.customui.CareerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class org.brickred.customui.ContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class org.brickred.customui.CustomUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class org.brickred.customui.FeedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class org.brickred.customui.ProfileActivity { <init>(...); }
+

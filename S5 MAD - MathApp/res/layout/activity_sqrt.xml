@@ -1,0 +1,117 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sqrtLayoutTab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".ActivitySqrt" >
+
+        <Button
+            android:id="@+id/sqrtButtArithmetic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Arithmetic"
+            android:width="112dp" />
+
+        <Button
+            android:id="@+id/sqrtButtWave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Waves"
+            android:width="112dp" />
+
+        <TextView
+            android:id="@+id/sqrtTextTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Square Roots"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="44sp" />
+
+        <SeekBar
+            android:id="@+id/sqrtSeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sqrtButtWave"
+            android:layout_below="@+id/sqrtTextQuestion"
+            android:layout_marginTop="31dp" />
+
+        <EditText
+            android:id="@+id/sqrtFieldAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sqrtTextTitle"
+            android:layout_alignRight="@+id/sqrtTextTitle"
+            android:layout_below="@+id/sqrtSeek"
+            android:layout_marginTop="24dp"
+            android:clickable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="numberDecimal" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/sqrtButtAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sqrtFieldAnswer"
+            android:layout_alignRight="@+id/sqrtFieldAnswer"
+            android:layout_below="@+id/sqrtFieldAnswer"
+            android:text="Answer" />
+
+        <TextView
+            android:id="@+id/sqrtTextSeekLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sqrtSeek"
+            android:layout_below="@+id/sqrtTextQuestion"
+            android:layout_marginTop="15dp"
+            android:text="LOW" />
+
+        <TextView
+            android:id="@+id/sqrtTextSeekRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/sqrtTextSeekLeft"
+            android:layout_alignBottom="@+id/sqrtTextSeekLeft"
+            android:layout_alignRight="@+id/sqrtSeek"
+            android:text="HIGH" />
+
+        <TextView
+            android:id="@+id/sqrtTextInstructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sqrtTextTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="104dp"
+            android:text="Drag the slider to answer."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/sqrtTextQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sqrtTextInstructions"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="36dp"
+            android:text="Root of X = ?"
+            android:textSize="36sp" />
+    </RelativeLayout>
+
+</TableLayout>

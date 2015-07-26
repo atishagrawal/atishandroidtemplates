@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NotificationLog</string>
+    <string name="hello">Hello Log</string>
+    <string name="async">Thread</string>
+    <string name="start_spam">Start Spam</string>
+    <string name="stop_spam">Stop Spam</string>
+    <string name="toast">Toast</string>
+    <string name="disabled">Disabled</string>
+
+</resources>

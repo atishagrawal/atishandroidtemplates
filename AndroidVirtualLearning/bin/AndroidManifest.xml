@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidvirtuallearning"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:hardwareAccelerated = "true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.androidvirtuallearning.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.androidvirtuallearning.StudentHomeActivity"
+            android:label="@string/title_activity_student_home" >
+        </activity>
+        <activity
+            android:name="com.example.androidvirtuallearning.SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name="com.example.androidvirtuallearning.AddSubjectActivity"
+            android:label="@string/title_activity_add_subject" >
+        </activity>
+        <activity
+            android:name="com.example.androidvirtuallearning.SubjectActivity"
+            android:label="@string/title_activity_subject" >
+        </activity>
+        <activity
+            android:name="com.example.androidvirtuallearning.SubjectInfoActivity"
+            android:label="@string/title_activity_subject_info" >
+        </activity>
+        <activity
+            android:name="com.example.androidvirtuallearning.EditUserActivity"
+            android:label="@string/title_activity_edit_user" >
+        </activity>
+        <activity
+            android:name="com.example.androidvirtuallearning.DLCListingsActivity"
+            android:label="@string/title_activity_dlclistings" >
+        </activity>
+        <activity
+            android:name="com.example.androidvirtuallearning.DLCViewingActivity"
+            android:label="@string/title_activity_dlcviewing" >
+        </activity>
+    </application>
+
+</manifest>

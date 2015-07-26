@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/nongamebackground">
+    
+<Space 
+    android:layout_height="50dp"
+    android:layout_width="fill_parent"
+    />
+    
+<LinearLayout 
+    android:weightSum="100"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    >
+          
+    <ImageView
+        android:layout_weight="50"
+        android:id="@+id/ivCoin1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:contentDescription="@string/coin"
+        android:src="@drawable/coin" />
+    
+    <TextView 
+        android:paddingTop="5dp"
+        android:id="@+id/scores"
+        android:typeface="serif"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="@string/scores"/>
+    
+    <ImageView
+        android:layout_weight="50"
+        android:id="@+id/ivCoin2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:contentDescription="@string/coin"
+        android:src="@drawable/coin" />
+
+</LinearLayout>
+<TextView
+    android:id="@+id/firstplacescore"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:text="@string/defaulttextboxfill"/>
+
+<TextView
+    android:paddingTop="1dp"
+    android:id="@+id/secondplacescore"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:text="@string/defaulttextboxfill"/>
+
+<TextView
+    android:paddingTop="1dp"
+    android:id="@+id/thirdplacescore"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:text="@string/defaulttextboxfill"/>
+
+<TextView
+    android:paddingTop="1dp"
+    android:id="@+id/fourthplacescore"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:text="@string/defaulttextboxfill"/>
+
+<TextView
+    android:paddingTop="1dp"
+    android:id="@+id/fithplacescore"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:text="@string/defaulttextboxfill"/>
+    
+</LinearLayout>

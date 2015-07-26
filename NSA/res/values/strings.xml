@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NSA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_database">PROCEED TO DATABASE &#8230;</string>
+    <string name="hint_decrypt_key">ENTER KEY</string>
+    <string name="str_Logged_In">Logged In /-</string>
+    <string name="str_decryption_key">DECRYPTION KEY &#8230;</string>
+    <string name="str_alert">&#8230;ALERT&#8230;</string>
+    <string name="str_intrusion">&#8230;INTRUSION&#8230;</string>
+    <string name="title_activity_logged_in">LoggedIn</string>
+    <string name="title_activity_intrusion">Intrusion</string>
+    <string name="str_btn_done">DONE</string>
+    <string name="title_activity_add_agent">AddAgent</string>
+    <string name="hint_search_agent">AGENT NAME</string>
+    <string name="str_add_agent">Fill in the Details&#8230;</string>
+    <string name="hint_agent_name">AGENT NAME</string>
+    <string name="hint_agent_code_name">CODE NAME</string>
+    <string name="title_activity_search_agent">SearchAgent</string>
+
+</resources>

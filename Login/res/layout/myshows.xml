@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".MyShows">
+
+            <ImageButton
+                android:id="@+id/myshows_GOT"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:contentDescription="@string/thread"
+                android:onClick="openForum"
+                android:background="@drawable/got"/>
+
+            <ImageButton
+                android:id="@+id/myshows_greysAnatomy"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:contentDescription="@string/thread"
+                android:onClick="openForum"
+                android:background="@drawable/greys_anatomy"/>
+
+            <ImageButton
+                android:id="@+id/myshows_daredevil"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:contentDescription="@string/thread"
+                android:onClick="openForum"
+                android:background="@drawable/daredevil"/>
+
+            <ImageButton
+                android:id="@+id/myshows_flash"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:contentDescription="@string/thread"
+                android:onClick="openForum"
+                android:background="@drawable/flash"/>
+
+            <ImageButton
+                android:id="@+id/myshows_100"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:contentDescription="@string/thread"
+                android:onClick="openForum"
+                android:background="@drawable/the100"/>
+
+            <ImageButton
+                android:id="@+id/myshows_once"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:contentDescription="@string/thread"
+                android:onClick="openForum"
+                android:background="@drawable/once"/>
+
+            <ImageButton
+                android:id="@+id/myshows_FOB"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:contentDescription="@string/thread"
+                android:onClick="openForum"
+                android:background="@drawable/fob"/>
+
+            <ImageButton
+                android:id="@+id/myshows_htgawm"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:contentDescription="@string/thread"
+                android:onClick="openForum"
+                android:background="@drawable/htgawm"/>
+
+            <ImageButton
+                android:id="@+id/myshows_silliconValley"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:contentDescription="@string/thread"
+                android:onClick="openForum"
+                android:background="@drawable/silicon_valley"/>
+
+            <ImageButton
+                android:id="@+id/myshows_madmen"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:contentDescription="@string/thread"
+                android:onClick="openForum"
+                android:background="@drawable/madmen"/>
+
+            <ImageButton
+                android:id="@+id/myshows_HOC"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:contentDescription="@string/thread"
+                android:onClick="openForum"
+                android:background="@drawable/hoc"/>
+
+            <ImageButton
+                android:id="@+id/myshows_arrow"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:contentDescription="@string/thread"
+                android:onClick="openForum"
+                android:background="@drawable/arrow"/>
+
+       </LinearLayout>
+</ScrollView>

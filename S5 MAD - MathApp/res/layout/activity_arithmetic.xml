@@ -1,0 +1,135 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".ActivityArithmetic" >
+
+        <Button
+            android:id="@+id/arithButtAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/arithFieldAnswer"
+            android:layout_alignRight="@+id/arithFieldAnswer"
+            android:layout_below="@+id/arithFieldAnswer"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="Answer" />
+
+        <TextView
+            android:id="@+id/arithTextOperator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/arithTextInstructions"
+            android:layout_centerHorizontal="true"
+            android:text="+"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="72sp" />
+
+        <Button
+            android:id="@+id/arithButtSqrt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Square roots"
+            android:width="112dp" />
+
+        <Button
+            android:id="@+id/arithButtWave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Waves"
+            android:width="112dp" />
+
+        <EditText
+            android:id="@+id/arithFieldOperandLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/arithFieldOperandRight"
+            android:layout_alignBottom="@+id/arithFieldOperandRight"
+            android:layout_alignRight="@+id/arithButtWave"
+            android:layout_marginRight="19dp"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:inputType="numberDecimal"
+            android:longClickable="false"
+            android:width="64dp" />
+
+        <EditText
+            android:id="@+id/arithFieldOperandRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/arithTextOperator"
+            android:layout_alignLeft="@+id/arithButtSqrt"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="20dp"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:inputType="numberDecimal"
+            android:longClickable="false"
+            android:width="64dp" />
+
+        <TextView
+            android:id="@+id/arithTextTitleWave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Arithmetic"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="48sp" />
+
+        <EditText
+            android:id="@+id/arithFieldAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/arithTextOperator"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:gravity="center_vertical|center_horizontal"
+            android:inputType="numberSigned|numberDecimal" />
+
+        <TextView
+            android:id="@+id/arithTextInstructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/arithTextTitleWave"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:text="What&apos;s the answer?"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/arithTextEquals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/arithTextOperator"
+            android:layout_alignTop="@+id/arithFieldOperandRight"
+            android:layout_marginTop="23dp"
+            android:text="="
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="72sp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

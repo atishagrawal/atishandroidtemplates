@@ -1,0 +1,127 @@
+<ScrollView
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingTop="25dp"
+    android:paddingBottom="25dp"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/sm_6">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registration_text_view"
+            android:id="@+id/registeration"
+            android:textColor="#ffffffff"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="50dp"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_edit_text"
+            android:hint="Name"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="25dp"
+            android:textColorHint="#ffffffff"
+            android:layout_gravity="center_vertical"
+            android:textColor="#ffffffff"
+            android:inputType="text"
+
+            />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_id_edit_text"
+        android:hint="Email ID"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="25dp"
+        android:textColorHint="#ffffffff"
+        android:layout_gravity="center_vertical"
+        android:textColor="#ffffffff"
+        android:inputType="text"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_password_edit_text"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="25dp"
+        android:textColorHint="#ffffffff"
+        android:layout_gravity="center_vertical"
+        android:textColor="#ffffffff"
+        android:inputType="text"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirm_password_edit_text"
+        android:hint="Confirm Password"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColorHint="#ffffffff"
+        android:layout_gravity="center_vertical"
+        android:textColor="#ffffffff"
+        android:inputType="text"
+        android:layout_marginBottom="25dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_no_edit_text"
+        android:hint="Contact No."
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="70dp"
+        android:textColorHint="#ffffffff"
+        android:layout_gravity="center_vertical"
+        android:textColor="#ffffffff"
+        android:inputType="text"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/submit_button"
+        android:textSize="30sp"
+        android:textColor="#ffffffff"
+
+        android:id="@+id/submit_button_text"
+        android:onClick="onSubmit"
+        android:background="@drawable/button_style"
+        />
+
+
+</LinearLayout>
+</ScrollView>

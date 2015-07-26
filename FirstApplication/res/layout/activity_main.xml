@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutMainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fbBlue"
+    android:orientation="vertical"
+    tools:context="com.techage.firstapplication.MainActivity" >
+
+    <TextView
+        android:id="@+id/txtmainActivityFB"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="55dp"
+        android:text="facebook"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/edmainActivityUsername"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:background="#FFFFFF"
+        android:hint="Email or Phone"
+        android:paddingLeft="5dp"
+        android:textSize="6pt" />
+
+    <EditText
+        android:id="@+id/edMainActivityPassword"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:textSize="6pt" />
+
+    <Button
+        android:id="@+id/btnMainActivityLogIn"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#7575ff"
+        android:gravity="center"
+        android:text="Hello"
+        android:textColor="#FFFFFF"
+        android:textSize="5pt" />
+
+    <TextView
+        android:id="@+id/txtmainActivitySignUp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="140dp"
+        android:text="Sign Up for facebook"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+</LinearLayout>

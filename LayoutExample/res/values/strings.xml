@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Layout Example</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="string_first_name">First Name</string>
+    <string name="string_last_name">Last Name</string>
+    <string name="string_user_name">Username</string>
+    <string name="string_password">Password</string>
+    <string name="string_confrim_password">Confirm Password</string>
+    <string name="button_signup">Sign up</string>
+
+</resources>

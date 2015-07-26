@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- strings.xml is where all the values of the strings used in your views are stored.
+    They are referenced in the .xml files, which are subsequently used in your code (.java files) -->
+
+    <!--app screen titles-->
+    <string name="app_name">Chatterbox</string>
+    <string name="title_addshows">Add Shows</string>
+    <string name="title_myactivity">Activity</string>
+    <string name="title_myshows">Shows</string>
+
+    <!-- Login.xml Strings -->
+    <string name="login_title">Welcome to Chatterbox!</string>
+    <string name="login_promptText_1">Nickname</string>
+    <string name="login_promptText_2">Password</string>
+    <string name="login_signIn">Sign in</string>
+    <string name="login_signUp">Sign up</string>
+    <string name="username_hint">Nickname</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="sign_up_button_label">Sign Up</string>
+    <string name="signup_error_message">Please enter all categories: nickname, password, and email address</string>
+    <string name="signup_error_title">Error</string>
+    <string name="login_error_message">Please enter a nickname and a password.</string>
+    <string name="login_error_title">Error</string>
+
+    <!-- signup page strings -->
+    <string name="signUp_promptText">E-mail</string>
+    <string name="signUp_signUp">Send Confirmation Code</string>
+
+    <!--email confirm page strings-->
+    <string name="confirm_hint">Please enter the passcode.</string>
+    <string name="confirm_create">Create Account!</string>
+
+    <!--  Random uncategorized Strings -->
+    <string name="error_et">Oops! Please enter a value as your total bill.</string>
+    <string name="done">Done</string>
+    <string name="thread">It\'s a photo.</string>
+    <string name="icon_description">This is the Chatterbox logo.</string>
+    <string name="main_hello_world">This screen needs tab features.</string>
+
+    <!-- Action button titles-->
+    <string name="action_addShows">Add Shows</string>
+    <string name="action_myActivity">My Activity</string>
+    <string name="action_myShows">My Shows</string>
+
+</resources>

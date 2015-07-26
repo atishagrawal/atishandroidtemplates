@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="dark_blue" type="color">#285dab</color>
+    <color name="dark_blue_down" type="color">#19407a</color>
+    <color name="light_blue" type="color">#2cb6d2</color>
+    <color name="light_blue_down" type="color">#238da3</color>
+    <color name="grey" type="color">#838687</color>
+    <color name="grey_down" type="color">#616263</color>
+
+</resources>

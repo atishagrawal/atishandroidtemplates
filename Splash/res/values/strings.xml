@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="start">Start</string>
+    <string name="app_name">Sky Zone Omega</string>
+    <string name="szoldescription">Sky Zone Omega Logo</string>
+    <string name="scores">Scores</string>
+    <string name="credits">Credits</string>
+    <string name="mcsite">www.masteredchaos.com</string>
+    <string name="mcldescription">Mastered Chaos Logo</string>
+    <string name="creditsmclogo">-The Mastered Chaos logo was created by Matthew Cocks.</string>
+    <string name="creditcreator">-Everything else was either created by Jamie Slowgrove or has been placed online to be used under the created commons public domain zero licence (mainly the sound effects).</string>
+    <string name="creditnotes">-This game was created by me (Jamie Slowgrove) for my extended project.</string>
+    <string name="coin">Coin</string>
+    <string name="defaulttextboxfill">-</string>
+    <string name="cloud">Cloud</string>
+    <string name="lost">You have been DEFEATED !!!!!</string>
+    <string name="again">Again</string>
+    <string name="backtomain">Back to main menu</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Virtual Learning</string>
+    <string name="action_settings">Settings</string>
+    <string name="loginButton">Login</string>
+    <string name="signUpButton">Sign Up</string>
+    <string name="txtHintUsername">Username</string>
+    <string name="txtHintPassword">Password</string>
+    <string name="txtHintServerURL">Server URL (ip address/path)</string>
+    <string name="title_activity_student_home">Android Virtual Learning</string>
+    <string name="lblWelcome">Welcome Student</string>
+    <string name="lblEnrolledSubjects">Enrolled Subjects</string>
+    <string name="btnAddSubject">Add</string>
+    <string name="btnEditUser">Edit User</string>
+    <string name="btnSignOut">Sign Out</string>
+    <string name="title_activity_sign_up">Please fill up the form below</string>
+    <string name="lblStudentID">Student ID</string>
+    <string name="lblLastname">Lastname</string>
+    <string name="lblFirstname">Firstname</string>
+    <string name="lblMI">MI</string>
+    <string name="lblUsername">Username</string>
+    <string name="lblPassword">Password</string>
+    <string name="lblRePassword">Re-Type Password</string>
+    <string name="btnSave">Save</string>
+    <string name="title_activity_add_subject">Add Subjects</string>
+    <string name="lblPasskey">Enter Passkey</string>
+    <string name="title_activity_subject">Android Virtual Learning</string>
+    <string name="lblSubjectName">Subject Name</string>
+    <string name="btnSubjectInfo">Subject Info</string>
+    <string name="title_activity_subject_info">Subject Information</string>
+    <string name="btnAllSubjects">All Subjects</string>
+    <string name="title_activity_edit_user">Edit User Information</string>
+    <string name="btnBrowseImage">Browse Image</string>
+    <string name="title_activity_dlclistings">Android Virtual Learning</string>
+    <string name="title_activity_dlcviewing">DLCViewingActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

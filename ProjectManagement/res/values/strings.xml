@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Project Management</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="action_logout">Log Out</string>
+    <string name="action_new">New</string>
+    <string name="action_filter">Filter</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="projects">Projects</string>
+    <string name="tasks">Tasks</string>
+    <string name="save">Save</string>
+    <string name="demo">Demo mode limit of 3 projects.</string>
+    <string name="edit">Edit</string>
+
+    <!-- Edit Project -->
+    <string name="edit_project">Edit Project Name</string>
+
+    <!-- Task Detail -->
+    <string name="task">Task</string>
+    <string name="task_due_date">Due Date</string>
+    <string name="comments">Comments</string>
+    <string name="new_comment">New Comment</string>
+    <string name="new_comment_error">Comment cannot be blank!</string>
+    <string name="edit_progress">Edit Progress</string>
+
+
+    <!-- New Task Dialog-->
+    <string name="task_name_hint">Task Name</string>
+    <string name="task_date_holder">Date Chosen</string>
+    <string name="choose_date_btn">Choose Due Date</string>
+    <string name="task_users_btn">Task Users</string>
+    <string name="user_list_header">Users Assigned</string>
+    <string name="task_description">Task Description</string>
+    <string name="task_user_hint">Username</string>
+    <string name="user_not_found">Username not found!</string>
+    <string name="user_name_input">Input Username to Task</string>
+
+    <!-- New Project Dialog -->
+    <string name="name_required">Name Required to Save!</string>
+    <string name="project_name_hint">Project Name</string>
+
+    <!-- Navigation Array -->
+    <string-array name="action_list">
+        <item>Navigation</item>
+        <item>Projects</item>
+        <item>My Tasks</item>
+    </string-array>
+
+    <!-- Projects Filter Array -->
+    <string-array name="filters">
+        <item>All</item>
+        <item>Active</item>
+        <item>Completed</item>
+    </string-array>
+
+</resources>

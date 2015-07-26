@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.xecute.app.CreateTaskDialogFragment" >
+
+    <item
+        android:id="@+id/item_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/save"
+        android:titleCondensed="Save">
+    </item>
+
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:longClickable="false"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight=".55"
+        android:id="@+id/logo_chatterbox"
+        android:focusableInTouchMode="false"
+        android:src="@drawable/chatterbox_logo"
+        android:layout_marginTop="38dp"
+        android:contentDescription="@string/icon_description" />
+
+    <EditText
+        android:id="@+id/signUp_nickname_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="0"
+        android:hint="@string/login_promptText_1"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/signUp_password_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="@string/login_promptText_2"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="18dp" />
+
+    <EditText
+        android:id="@+id/signUp_email_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/signUp_promptText"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:id="@+id/signUp_signUp"
+        android:text="@string/signUp_signUp"
+        android:layout_width="250dp"
+        android:layout_weight="0.7"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+        <!--android:onClick="toConfirm" -->
+
+</LinearLayout>

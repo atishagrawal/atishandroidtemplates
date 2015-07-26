@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MathApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity_arithmetic">Arithmetic</string>
+    <string name="title_activity_activity_sqrt">Square Roots</string>
+    <string name="title_activity_activity_wave">Waves</string>
+    <string name="title_activity_activity_score">Score</string>
+
+</resources>

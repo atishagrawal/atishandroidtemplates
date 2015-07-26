@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FallApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_options">FallApp - Options</string>
+    <string name="title_activity_display">FallApp - Show Big</string>
+    <string name="velocityLabel">Velocity (km/h)</string>
+    <string name="heightLabel">Equivalent free-fall height (m)</string>
+    <string name="planetChanged">Planet changed to</string>
+    <string name="optionsButton">Options</string>
+    <string name="showBigButton">Show Big</string>
+    <string name="back">Back</string>
+    <string name="selectPlanet">Planet selection</string>
+    <string name="mercury">Mercury</string>
+    <string name="venus">Venus</string>
+    <string name="earth">Earth</string>
+    <string name="mars">Mars</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+
+</resources>

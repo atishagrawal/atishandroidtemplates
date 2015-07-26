@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FallaProg</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="title_activity_options">FallaProg - Alternativ</string>
+    <string name="title_activity_display">FallaProg - Stora</string>
+    <string name="velocityLabel">Hastighet (km/t)</string>
+    <string name="heightLabel">Ekvivalent fritt fallhöjd (m)</string>
+    <string name="planetChanged">Planet ändras till</string>
+    <string name="optionsButton">Alternativ</string>
+    <string name="showBigButton">Visa Stora</string>
+    <string name="back">Återgå</string>
+    <string name="selectPlanet">Planet urval</string>
+    <string name="mercury">Merkurius</string>
+    <string name="venus">Venus</string>
+    <string name="earth">Jorden</string>
+    <string name="mars">Mars</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Avbryta</string>
+
+</resources>
+

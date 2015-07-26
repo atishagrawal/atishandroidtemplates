@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ActivityWave" >
+
+    <Button
+        android:id="@+id/waveButtSqrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Square roots"
+        android:width="112dp" />
+
+    <Button
+        android:id="@+id/waveButtArithmetic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Arithmetic"
+        android:width="112dp" />
+
+    <ProgressBar
+        android:id="@+id/waveWave1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/waveWave0"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="256dp"
+        android:minWidth="192dip" />
+
+    <ProgressBar
+        android:id="@+id/waveWave2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/waveWave1"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="256dp"
+        android:minWidth="192dip" />
+
+    <ProgressBar
+        android:id="@+id/waveWave3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/waveWave2"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="256dp"
+        android:minWidth="192dip" />
+
+    <ProgressBar
+        android:id="@+id/waveWave4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/waveWave3"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="256dp"
+        android:minWidth="192dip" />
+
+    <ProgressBar
+        android:id="@+id/waveWave5"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/waveWave4"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="256dp"
+        android:minWidth="192dip" />
+
+    <ProgressBar
+        android:id="@+id/waveWave6"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/waveWave5"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="256dp"
+        android:minWidth="192dip" />
+
+    <TextView
+        android:id="@+id/waveTextTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Waveforms"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/waveButtAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/waveSpinner"
+        android:layout_alignRight="@+id/waveSpinner"
+        android:layout_below="@+id/waveSpinner"
+        android:text="Answer" />
+
+    <ProgressBar
+        android:id="@+id/waveWave0"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/waveWave1"
+        android:layout_below="@+id/waveTextTitle"
+        android:layout_marginTop="35dp"
+        android:maxWidth="256dp"
+        android:minWidth="192dip" />
+
+    <TextView
+        android:id="@+id/waveTextInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/waveTextTitle"
+        android:layout_centerHorizontal="true"
+        android:text="What kind of wave is this?"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/waveSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/waveWave6"
+        android:layout_alignRight="@+id/waveWave6"
+        android:layout_below="@+id/waveWave6"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>

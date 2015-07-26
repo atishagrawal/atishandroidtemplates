@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+
+    <!-- Facebook Login Button -->
+
+    <Button
+        android:id="@+id/btn_fblogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dip"
+        android:src="@drawable/btn_login"
+        android:text="Login with Facebook" />
+
+    <!-- Facebook Post to Wall Button -->
+
+    <EditText
+        android:id="@+id/edUrl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Url"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Message"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_fb_post_to_wall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Post to Wall" />
+    <!-- Facebook Logout Button -->
+
+    <Button
+        android:id="@+id/btn_get_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/btn_logout"
+        android:text="Get Profile Data" />
+
+    <!-- Button to show access tokens -->
+
+    <Button
+        android:id="@+id/btn_show_access_tokens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Show Access Tokens" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+</LinearLayout>

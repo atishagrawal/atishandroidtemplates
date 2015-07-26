@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtAlert1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18pt" />
+
+    <TextView
+        android:id="@+id/txtAlert2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18pt" />
+
+    <TextView
+        android:id="@+id/txtAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_weight="1"
+        android:text="@string/str_alert"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18pt" />
+
+    <TextView
+        android:id="@+id/txtIntrusion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_weight="1"
+        android:text="@string/str_intrusion"
+        android:textColor="#ffffff"
+        android:textSize="18pt" />
+
+    <TextView
+        android:id="@+id/txtAlert3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18pt" />
+
+    <TextView
+        android:id="@+id/txtAlert4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18pt" />
+
+</LinearLayout>

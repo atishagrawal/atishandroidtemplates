@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signupLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context="com.xecute.app.SignupFragment">
+
+    <EditText
+        android:id="@+id/signupEmail"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#cccccc"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="5dp"
+        android:maxLines="1"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/signupPassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#cccccc"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="5dp"
+        android:maxLines="1"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/signupConfPassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#cccccc"
+        android:textColor="#ffffff"
+        android:maxLines="1"
+        android:hint="Confirm"/>
+
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="310dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/light_blue_button"
+        android:text="Sign Up"/>
+
+
+</LinearLayout>

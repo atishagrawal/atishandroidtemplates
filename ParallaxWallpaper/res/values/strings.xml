@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="app_name">Parallax Wallpapers</string>
+    
+    <string name="wallpaper_settings">Parallax Wallpaper Settings</string>
+
+	<string name="settings_title">Pick your layers</string>
+	<string name="settings_description">Your layer files should have the same name except for a number
+		at the end of the name, starting with 1 for the topmost layer.   
+		<b>Tip:</b> The front layers should be wider to make them scroll faster.
+	</string>
+	<string name="settings_description2">Example:\n
+		mybackground1.png\n
+		mybackground2.png\n
+		mybackground3.png  
+	</string>
+	<string name="settings_description3">
+	    Pick one of the layer files, and I\'ll try to find the rest of them.
+	</string>
+	<string name="settings_choose_button">Pick an image</string>
+	<string name="no_image_picker_alert_title">Embarassing&#8230;</string>
+	<string name="no_image_picker_alert_message">
+	    Your device doesn\'t seem to support any
+	    activity for picking an image, which is slightly odd
+	    as most should come with some sort of gallery.
+	    Try downloading File Manager from the Market.</string>
+	
+    
+</resources>

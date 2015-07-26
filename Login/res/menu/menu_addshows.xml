@@ -1,0 +1,11 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AddShows">
+
+    <item
+        android:id="@+id/action_myActivity"
+        android:title="@string/action_myActivity"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

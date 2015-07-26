@@ -1,0 +1,45 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bydavy.parallax.app.MainActivity" >
+
+    <com.bydavy.parallax.app.TrackingScrollView
+        android:id="@+id/scroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/image_height"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/android" />
+
+                <include layout="@layout/content" />
+            </LinearLayout>
+
+            <!-- Should have a margin top equal to R.id.image's height -->
+
+            <TextView
+                android:id="@+id/presentation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/image_height"
+                android:background="@drawable/rectangle"
+                android:padding="20dp"
+                android:text="Scroll down"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </com.bydavy.parallax.app.TrackingScrollView>
+
+</merge>

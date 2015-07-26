@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearNester"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".ActivityFallHeight" >
+
+        <EditText
+            android:id="@+id/heightField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/velocityField"
+            android:layout_below="@+id/heightTextView"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/heightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/heightField"
+            android:layout_below="@+id/velocityField"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/heightLabel" />
+
+        <Button
+            android:id="@+id/optionsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/showBigButton"
+            android:layout_below="@+id/velocityTextView"
+            android:minWidth="128dp"
+            android:text="@string/optionsButton" />
+
+        <Button
+            android:id="@+id/showBigButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/heightTextView"
+            android:layout_marginRight="54dp"
+            android:minWidth="128dp"
+            android:text="@string/showBigButton" />
+
+        <TextView
+            android:id="@+id/velocityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/heightTextView"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/velocityLabel" />
+
+        <EditText
+            android:id="@+id/velocityField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/optionsButton"
+            android:layout_marginRight="52dp"
+            android:layout_toLeftOf="@+id/optionsButton"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+    </RelativeLayout>
+
+</LinearLayout>
